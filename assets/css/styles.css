@@ -8,7 +8,7 @@ ul {
 }
 
 body {
-    background-color: #f7f7f5;
+    background-color: #f4f4f4;
 }
 
 nav {
@@ -21,6 +21,7 @@ nav {
 
 .nav-bar {
     padding-top: 12px;  /*padding for bottom border*/
+    background-color: #f8f8f8;
 }
 
 .nav-left {
@@ -250,12 +251,14 @@ footer {
     border: solid 1px red;
     margin-left: 85px;
     width: 35%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .bio {
     background-color: white;
     height: 13.5%;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .riverplace {
@@ -270,6 +273,7 @@ footer {
     height: 200px;
     margin-top: -25%;
     margin-bottom: -15px;
+    text-align: center;
 }
 
 h3 {
@@ -302,29 +306,47 @@ h3 {
 .blythe {
     width: 81%;
     height: 20%;
+    margin-left: 35px;  
 }
 
 .snow-day {
     width: 81%;
     height: 20%;
+    margin-left: 35px;  
+    margin-top: 28px;
+
 }
 
 .highwater {
     width: 81%;
     height: 20%;
+    margin-left: 35px;  
+    margin-top: 28px;
+
 }
 
 .popular-posts {
     background-color: white;
-    margin-top: 60px;
+    /* margin-top: 50px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 24.5%;
+}
+
+.popular-posts h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .popular-posts h4 {
     text-align: left;
-    margin-left: 30px;
+    margin-left: 35px;
     font-size: 14px;
     font-family: Oswald;
     font-weight: 500;
+    display: flex;
+    margin-bottom: 0;
 }
 
 .popular-posts p {
@@ -335,11 +357,50 @@ h3 {
     color: #949494;
     text-align: left;
     margin-left: 30px;
+    display: flex;
 
 }
 
+.latest-posts {
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
 .latest-posts img {
-    width: 25%;
+    width: 28%;
+    margin-left: 35px;
+}
+
+.tabernacle {
+    height: 10%;
+}
+
+.sierra-nevada {
+    height: 10%;
+}
+
+.swamp-rabbit {
+    height: 10%;
+}
+
+.latest-posts h3 {
+    text-align: center;
+}
+
+.latest-posts h4 {
+    font-size: 14px;
+    font-family: Oswald;
+    font-weight: 500;
+}
+
+.latest-posts p {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    color: #949494;
 }
 
 
