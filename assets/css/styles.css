@@ -245,6 +245,7 @@ footer {
 }
 
 .aside-container {
+    display: flex;
     flex-direction: column;
     border: solid 1px red;
     margin-left: 85px;
@@ -254,6 +255,7 @@ footer {
 
 .bio {
     background-color: white;
+    height: 13.5%;
 }
 
 .riverplace {
@@ -263,9 +265,11 @@ footer {
 
 .brande-bio {
     width: 50%;
-    border-radius: 50%;
+    border-radius: 55%;
     border: solid 10px white;
     height: 200px;
+    margin-top: -25%;
+    margin-bottom: -15px;
 }
 
 h3 {
@@ -291,9 +295,54 @@ h3 {
 
 .aside-icons li {
     border: solid 1px #ccc;
-    border-radius: 50%;
+    border-radius: 51%;
     padding: 6px;
 }
+
+.blythe {
+    width: 81%;
+    height: 20%;
+}
+
+.snow-day {
+    width: 81%;
+    height: 20%;
+}
+
+.highwater {
+    width: 81%;
+    height: 20%;
+}
+
+.popular-posts {
+    background-color: white;
+    margin-top: 60px;
+}
+
+.popular-posts h4 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: Oswald;
+    font-weight: 500;
+}
+
+.popular-posts p {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    color: #949494;
+    text-align: left;
+    margin-left: 30px;
+
+}
+
+.latest-posts img {
+    width: 25%;
+}
+
+
 
 
 
