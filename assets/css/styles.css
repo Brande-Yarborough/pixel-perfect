@@ -314,6 +314,7 @@ h3 {
     height: 20%;
     margin-left: 35px;  
     margin-top: 28px;
+    object-fit: cover;
 
 }
 
@@ -332,6 +333,7 @@ h3 {
     display: flex;
     flex-direction: column;
     height: 24.5%;
+    margin-bottom: 50px;
 }
 
 .popular-posts h3 {
@@ -362,32 +364,57 @@ h3 {
 }
 
 .latest-posts {
-    /* background-color: white; */
+    background-color: white;
     display: flex;
     flex-direction: column;
     /* text-align: center; */
+    height: 12.7%;
 }
 
 .latest-posts img {
     width: 28%;
     margin-left: 35px;
+    display: inline;
 }
 
-.tabernacle {
-    height: 10%;
+.latest-posts span {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: italic;
 }
 
-.sierra-nevada {
-    height: 10%;
+.redington {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.atlanta {
+    /* height: 15%;
+    margin-top: -65px; */
+    margin-bottom: 32px;
+    height: 78px;
+}
+
+.asheville {
+    /* height: 15%;
+    margin-top: -70px; */
+    margin-bottom: 32px;
+    height: 75px;
 }
 
 .swamp-rabbit {
-    height: 10%;
+    /* height: 15%;
+    margin-top: -63px; */
+    object-fit: cover;
+    height: 75px;
 }
 
 .latest-posts h3 {
     text-align: center;
+    margin-top: 25px;
+    margin-right: 3px;
 }
+
 
 .latest-posts h4 {
     font-size: 14px;
@@ -401,7 +428,101 @@ h3 {
     font-weight: 500;
     font-style: italic;
     color: #949494;
+    display: flex;
 }
+
+.latest-post-container {
+    display: flex;
+}
+
+.latest-title-date {
+    flex-direction: column;
+    margin-left: 15px;
+    line-height: 8px;
+    margin-top: -12px;
+}
+
+ .indian-shores {   /* aligns indian shores heading in latest posts */
+    margin-top: 30px;
+}
+
+
+.instagram-feed {
+     /* display: flex; */
+    /* flex-direction: column;
+    justify-content: space-around;  */
+    margin-top: 55px;
+    background-color: white;
+    height: 14%;
+}
+
+.instagram-feed img {
+    height: 144px;
+    width: 144px;
+    /* margin-top: 30px; */
+}
+
+.instagram-feed h3 {
+    margin-left: 34%;
+    margin-bottom: 30px;
+}
+
+.instagram-feed-1 {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 24px; */
+    flex: 50%;
+    max-width: 45%;
+    padding: 0 6px 30px 6px;
+}
+
+.instagram-feed-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    max-width: 45%;
+    padding: 0 6px 30px 6px;
+}
+
+.instagram-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row;
+    margin-left: 40px;
+    justify-content: space-around;
+    margin-right: 28px; */
+}
+
+.instagram-feed-1 img {
+    object-fit: cover;
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.instagram-feed-2 img {
+    object-fit: cover;
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/* .ellis-blythe {
+    margin-bottom: 10px;
+}
+
+.falls {
+    margin-bottom: 15px;
+}
+
+.brandi-c {
+    margin-bottom: 10px;
+}
+
+.sophia {
+    margin-bottom: 15px;
+} */
 
 
 
