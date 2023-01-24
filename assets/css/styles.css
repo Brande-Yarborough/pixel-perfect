@@ -29,7 +29,7 @@ nav {
   align-content: center;
   font-family: Lato;
   font-size: 11px;
-  color: grey;
+  color: #6E6E6E;
   font-weight: 700;
   padding-left: 0;
   /* padding-top: 5px; */
@@ -48,7 +48,7 @@ nav {
   padding-top: 5px;
   padding-right: 5px;
   font-size: 12px;
-  color: lightgrey;
+  color: #AAAAAA;
   letter-spacing: 1px;
 }
 
@@ -189,7 +189,7 @@ article {
     display: flex;
     flex-direction: row;
     align-items:flex-end;
-    color: lightgrey;
+    color: #cccccc;
     justify-content: space-between;
     gap: 14px;
 }
@@ -580,5 +580,14 @@ color:#CC5500;
 
   img:hover {
     opacity: 0.5;
+  }
+
+  @media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
   }
 
