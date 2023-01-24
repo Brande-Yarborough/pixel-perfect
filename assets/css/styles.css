@@ -534,33 +534,42 @@ h3 {
     margin-bottom: 15px;
 } */
 
+a:hover {
+color:#CC5500;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: grey
+}
+
 #fb:hover {
-    color: #3871E3;
+    color: #CC5500;
     cursor: pointer;
   }
 
   #twitter:hover {
-    color: lightskyblue;
+    color: #CC5500;
     cursor: pointer;
   }
   
   #pinterest:hover {
-    color: #a82525;
+    color: #CC5500;
     cursor: pointer;
   }
   
   #instagram:hover {
-    color: #bd438f;
+    color: #CC5500;
     cursor: pointer;
   }
   
   #google:hover {
-    color: #59a65c;
+    color: #CC5500;
     cursor: pointer;
   }
   
   #linkedin:hover {
-    color: #2c60b8;
+    color: #CC5500;
     cursor: pointer;
   }
 
