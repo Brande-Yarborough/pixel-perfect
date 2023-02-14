@@ -599,6 +599,7 @@ img:hover {
   main {
     display: flex;
     flex-direction: column;
+    display: block;
     width: 100%;
     justify-content: center;
   }
@@ -609,11 +610,12 @@ img:hover {
   }
 
   nav > ul {
-    display: none;
+    /* display: none; */
+    visibility: hidden;
   }
 
-  .nav-mobile {
+  /* .nav-mobile {
     display: flex;
     justify-content: right;
-  }
+  }  */
 }
