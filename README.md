@@ -1,3 +1,6 @@
+Pixel Perfect is an exact website replication using HTML and CSS. 
+
+
 ### Description
 
 As a web developer, you will sometimes be tasked with creating an html page simply from an image file. In this assignment, you'll take the given image and turn it into a functioning website.
